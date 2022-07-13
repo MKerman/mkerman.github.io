@@ -1,0 +1,119 @@
+* {
+  font-family:verdana,arial, san-serif;
+  font-size: 1 em;
+  color:grey;
+  }
+
+h1, h2 {
+  font-family: Times New Roman;
+  color: teal;
+}
+p, ul{
+  font-size:14px;
+}
+
+h3, h4, h5, h6, {
+  font-family:'time new roman';
+}
+
+h3 {
+  font-size:1em;
+}
+
+h2{
+  border-bottom: .3em double black;
+}
+
+.exp2{
+  font-weight:bold;
+}
+
+.side{
+  color:white;
+}
+
+.company{
+  color:#005050;
+}
+
+.title{
+  font-style: italic;
+  font-weight:bolder;
+}
+
+.divide{
+  color: #40A0A0;
+  font-weight: bold;
+}
+
+.summary{
+  font-style:italic;
+}
+
+
+li{
+  list-style-type:square;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color:purple;
+}
+
+a:hover {
+  color:pink;
+}
+
+.school {
+  font-weight:bold;
+  color:white;
+}
+
+#ul.my-list-style {
+  color:white;
+}
+
+header{
+
+  padding: 1em;
+}
+
+aside{
+  background:teal;
+  padding: 1em;
+}
+/* USING GRID*/
+
+div{
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 2em;
+}
+ 
+header {
+  /* Place the head in this area */
+  grid-area: header;
+}
+ 
+section {
+  /* Place the article in the sidebar */
+  grid-area: content;
+}
+ 
+aside {
+  grid-area: sidebar;
+  
+
+}
+ 
+footer {
+  grid-area: footer;
+}
+
