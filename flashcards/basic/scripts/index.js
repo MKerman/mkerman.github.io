@@ -1,4 +1,4 @@
-
+document.body.innerHTML+='Are you up for the challenge?';
 class quizQ {
   // Define names for value pairs in quizQ objects
   constructor(question, answer) {
