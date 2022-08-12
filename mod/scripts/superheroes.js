@@ -52,9 +52,20 @@ request.onload= function() {
       const superPowers= heroes[i].powers;
         
        for (let j=0; j < superPowers.length; j++) {
-         const listItem= document.createElement('li');
-         listItem.textContent =document.createElement('li');
-         myList.appendChild(listItem);
+           const listItem= document.createElement('li');
+            listItem.textContent =document.createElement('li');
+             myList.appendChild(listItem);
        }
          
+            myArticle.appendChild(myH2);
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myPara3);
+            myArticle.appendChild(myList);
+      
+           section.appendChild(myArticle);
+       }
+    }
+  
+
     
