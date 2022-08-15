@@ -1,4 +1,7 @@
-document.body.innerHTML+='Are you up for the challenge?';
+const flashDeck = document.getElementById('flashDeck_div');
+flashDeck.innerHTML+= 'Are you ready?';
+
+/*
 class quizQ {
   // Define names for value pairs in quizQ objects
   constructor(question, answer) {
@@ -25,3 +28,4 @@ document.body.innerHTML+=myFlashcard[i].question + '<br/> ' + myFlashcard[i].ans
 ++i;
 
 }
+*/
