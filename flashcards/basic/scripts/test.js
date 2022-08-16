@@ -24,13 +24,8 @@ myFlashcard.push(new quizQ('What sport are the Pittsburgh Forge?', 'rugby'));
 //prints the entire question and answers on click
 document.querySelector('html').onclick=function(){
  let i = 0;
-  while (i < myFlashcard.length)  {
-   flashDeck.innerHTML+=(myFlashcard[i].question +'<br>');
-  document.querySelector('html').onmouseup=function(){
-   while (i<myFlashcard.length){
-   flashDeck.innerHTML+=(myFlashcard[i].answer)
-   }
-   }
-   ++i;
-  }
+    while (i < myFlashcard.length)  {
+      flashDeck.innerHTML+=(myFlashcard[i].question +'<br>');
+      ++i;
+    }
 }
