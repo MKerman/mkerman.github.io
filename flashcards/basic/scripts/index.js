@@ -1,17 +1,18 @@
+//define where the questions will appear on html
 const flashDeck = document.getElementById('flashDeck_div');
 flashDeck.innerHTML+= 'Are you ready?';
 
-/*
+//create class for objects
 class quizQ {
   // Define names for value pairs in quizQ objects
   constructor(question, answer) {
     this.question = question;
     this.answer = answer;
-
+    this.correct = false;
    } 
  
 }
-// define empty array for flaschards
+// define empty array for myFlaschards
 let myFlashcard = []; 
 
 //add objects to flashcard array
@@ -28,4 +29,4 @@ document.body.innerHTML+=myFlashcard[i].question + '<br/> ' + myFlashcard[i].ans
 ++i;
 
 }
-*/
+
