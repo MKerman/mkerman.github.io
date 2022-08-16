@@ -26,7 +26,11 @@ document.querySelector('html').onclick=function(){
  let i = 0;
   while (i < myFlashcard.length)  {
    flashDeck.innerHTML+=(myFlashcard[i].question +'<br>');
-       }
+  document.querySelector('html').onmouseup=function(){
+   while (i<myFlashcard.length){
+   flashDeck.innerHTML+=(myFlashcard[i].answer)
+   }
+   }
    ++i;
   }
 }
