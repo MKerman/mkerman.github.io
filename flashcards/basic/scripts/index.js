@@ -25,7 +25,7 @@ myFlashcard.push(new quizQ('What sport are the Pittsburgh Forge?', 'rugby'));
 //create loop to print question pairs
 let i=0;
 while(i<myFlashcard.length){
-document.body.innerHTML+=myFlashcard[i].question + '<br/> ' + myFlashcard[i].answer + '<br/>';
+flashDeck.innerHTML+=myFlashcard[i].question + '<br/> ' + myFlashcard[i].answer + '<br/>';
 ++i;
 
 }
