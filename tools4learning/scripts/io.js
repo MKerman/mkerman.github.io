@@ -17,7 +17,8 @@ let myFlashcards = [ {
    },
    {
    "question": "What is the tool called to visualize the relationship between colors",
-   "image"  : "none",
+   "image"   : "none",
+   "answer"  : "color wheel" 
    }  
 ];
 
