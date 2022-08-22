@@ -1,7 +1,7 @@
 //import function to get database root, sets a location & update the value
 
 import {getDatabase, ref, set, update, child, get, onValue, remove } from
-"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
+"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js (https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js)";
 
 //creat new flashcards
 
