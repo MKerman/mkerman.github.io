@@ -31,7 +31,7 @@ document.querySelector('html').onclick=function(){
   window.location.reload();
   }
   else if (questionDisplayed === false) {
-      flashDeck.innerHTML=(myFlashcard[questionCounter].question +'<br>');
+      flashDeck.innerHTML=('<br>' + myFlashcard[questionCounter].question +'<br>');
      
       //reset questionDisplayed
       questionDisplayed = true;
