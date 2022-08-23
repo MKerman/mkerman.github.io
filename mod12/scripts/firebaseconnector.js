@@ -10,6 +10,7 @@
   const firebaseConfig = {
     apiKey: "AIzaSyDe0dsXJkiCPZsNihE3p_5sU7Mc9PCvYsQ",
     authDomain: "learningdatabase-f4bb0.firebaseapp.com",
+    databaseURL: "https://learningdatabase-f4bb0-default-rtdb.firebaseio.com",
     projectId: "learningdatabase-f4bb0",
     storageBucket: "learningdatabase-f4bb0.appspot.com",
     messagingSenderId: "266285362578",
