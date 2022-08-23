@@ -6,10 +6,10 @@ let questionDisplayed = false;
 
 class quizQ {
   //Define name of value pairs in quizQ objects
-  constructor(question, answer, answphoto) {
+  constructor(question, answer, photo) {
     this.question = question;
     this.answer = answer;
-    this.answphoto = answphoto;
+    this.photo = photo;
     this.correct = false;
   }
 }
@@ -26,22 +26,20 @@ myFlashcard.push(new quizQ('What sport are the Pittsburgh Forge?', 'rugby', 'htt
 
 //prints the entire question and answers on click
 document.querySelector('html').onclick=function(){
-    //reload page to start question set over at the end of array
+  //reload page to start question set over
   if (questionCounter === myFlashcard.length){
   window.location.reload();
   }
-  
-  //resets flashDeck to display only the question on click
   else if (questionDisplayed === false) {
       flashDeck.innerHTML=(myFlashcard[questionCounter].question +'<br>');
      
       //reset questionDisplayed
       questionDisplayed = true;
       }
- else  { // display answer 
-      flashDeck.innerHTML+=('<br> '+ myFlashcard[questionCounter].answer +'<br>');
-      //display coresponding image for answer
-       flashDeck.innerHTML+=('<img src=\'' + myFlashcard[questionCounter].answphoto +'\' width=50%>')
+  //display answer
+ else  { 
+      flashDeck.innerHTML+=(myFlashcard[questionCounter].answer +'<br>');
+       flashDeck.innerHTML+=('<img src=\'' + myFlashcard[questionCounter].photo +'\' width=50%>')
       //reset questionDisplayed
       questionDisplayed = false;
       //increment question counter
