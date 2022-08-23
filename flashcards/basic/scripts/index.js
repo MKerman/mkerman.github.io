@@ -26,8 +26,13 @@ myFlashcard.push(new quizQ('What sport are the Pittsburgh Forge?', 'rugby', 'htt
 
 //prints the entire question and answers on click
 document.querySelector('html').onclick=function(){
+    //reload page to start question set over at the end of array
+  if (questionCounter === myFlashcard.length){
+  window.location.reload();
+  }
+  
   //resets flashDeck to display only the question on click
-  if (questionDisplayed === false) {
+  else if (questionDisplayed === false) {
       flashDeck.innerHTML=(myFlashcard[questionCounter].question +'<br>');
      
       //reset questionDisplayed
