@@ -11,6 +11,11 @@ let myFlashcards = [ {
   "answer": "primary colors"
    },
    {
+   "question": "What are the primary colors?",
+   "image"   : "none",
+   "answer"  : "Red, Yellow, Blue"  
+   },
+                       {
    "question": "What colors do you get when you mix the primary colors together?",
    "image"   : "none",
    "answer"  : "secondary colors"  
