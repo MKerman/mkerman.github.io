@@ -1,7 +1,7 @@
 //import function to get database root, sets a location & update the value
 
-import {getDatabase, ref, set, update, child, get, onValue, remove } from
-"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js (https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js)";
+import { getDatabase, ref, set, update, child, get, onValue, remove
+} from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
 
 //creat new flashcards
 
@@ -22,15 +22,13 @@ let myFlashcards = [ {
    }  
 ];
 
-//Get pointer to database root
-const db = getDatabase();
+//point to database root
+const db = getDatabase ();
 
-//make database point to location root -> deck -> flashcards
-
-//create reference location
+//make database point to a specificl location (either existing or new)
 const dbLocation = {};
 
-//store myFlashcards under flashcards in the database
+//ovewrite or write myFlashcards stored under flashcards in the database
 dbLocation['/deck/flashcards/'] = myFlashcards;
 
 //specify location in the database tree
