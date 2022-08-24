@@ -11,11 +11,6 @@ let myFlashcards = [ {
   "answer": "primary colors"
    },
    {
-   "question": "What are the primary colors?",
-   "image"   : "none",
-   "answer"  : "Red, Yellow, Blue"  
-   },
-                       {
    "question": "What colors do you get when you mix the primary colors together?",
    "image"   : "none",
    "answer"  : "secondary colors"  
@@ -23,7 +18,7 @@ let myFlashcards = [ {
    {
    "question": "What is the tool called to visualize the relationship between colors",
    "image"   : "none",
-   "answer"  : "color wheel" 
+   "answer"  : "The color wheel" 
    }  
 ];
 
