@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>H5P Standalone Player Example</title>
-  <link rel="stylesheet" href="dist/styles/h5p.css"> <!-- Include the CSS file -->
+  <link rel="stylesheet" href="/dist/styles/h5p.css"> <!-- Include the CSS file -->
 </head>
 <body>
 
-<b>Hello World, check out this <i>hot</i> spot:</b>
+<b>Hello World, check out this fun <i>hot</i> spot:</b>
   <!-- Container for the H5P content -->
   <div id="h5p-container"></div>
 
   <!-- Include the main H5P standalone script -->
-  <script type="text/javascript" src="dist/main.bundle.js"></script>
+  <script type="text/javascript" src="/dist/main.bundle.js"></script>
 
   <script>
     // Ensure the DOM is fully loaded before executing the script
@@ -21,8 +21,8 @@
       const el = document.getElementById('h5p-container');
       const options = {
         h5pJsonPath: 'h5p-folder', // Path to your extracted H5P content folder
-        frameJs: 'dist/frame.bundle.js', // Path to the frame bundle JS file original '/dist/frame.bundle.js'
-        frameCss: 'dist/styles/h5p.css', // Path to the frame CSS file, original '/dist/styles/h5p.css' 
+        frameJs: '/dist/frame.bundle.js', // Path to the frame bundle JS file original '/dist/frame.bundle.js'
+        frameCss: '/dist/styles/h5p.css', // Path to the frame CSS file, original '/dist/styles/h5p.css' 
       };
 
       // Initialize the H5P player
