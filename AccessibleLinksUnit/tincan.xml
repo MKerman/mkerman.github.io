@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">VS 14 AIM Unit Links FINAL xAPI</name>
+			<description lang="und">Hopefully is final version : ) Again</description>
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6fkOyeqMxXh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Start Here</name>
+			<description lang="und">Start Here</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6N5meLDW6yf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit 4:
+Accessible Links</name>
+			<description lang="und">Unit 4:
+Accessible Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6CxlPp3eWp7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Objectives:</name>
+			<description lang="und">Unit Objectives:</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/69bKS2yzJz3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question: Best Option for Weblink</name>
+			<description lang="und">Question: Best Option for Weblink</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/69bKS2yzJz3/62kLhNYLU5r" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Which is the best option for a website link?</name>
+			<description lang="und">Which is the best option for a website link?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_69GqAjEvmh4</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5WVvWjtJy7Z</id>
+					<description lang="und">The Annual Financial Report Link</description>
+				</component>
+				<component>
+					<id>choice_60e8aJV9dTo</id>
+					<description lang="und">More Info</description>
+				</component>
+				<component>
+					<id>choice_69GqAjEvmh4</id>
+					<description lang="und">Understanding the annual financial report</description>
+				</component>
+				<component>
+					<id>choice_66nMKhmTxtl</id>
+					<description lang="und">Read more about how to understand the annual financial report including details on each section and additional resources for further reading</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6SgfIL8aoDF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Screen Readers &amp; Links</name>
+			<description lang="und">Screen Readers &amp; Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6ALY0xkGVcc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video Up Next: Bad Links</name>
+			<description lang="und">Video Up Next: Bad Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6HEVtwuQgad" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video Bad Links</name>
+			<description lang="und">Video Bad Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5xRj3goUQVN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Screen Readers &amp; Links</name>
+			<description lang="und">Screen Readers &amp; Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5wtW4mD1KXT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Choose the best option for writing a link descriptions:</name>
+			<description lang="und">Choose the best option for writing a link descriptions:</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5wtW4mD1KXT/6O25nOoEniH" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Choose the best option for writing a link descriptions:</name>
+			<description lang="und">Choose the best option for writing a link descriptions:</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6fp0oyuYFie</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_64O9OS1ARO5</id>
+					<description lang="und">“Click Here”</description>
+				</component>
+				<component>
+					<id>choice_6fp0oyuYFie</id>
+					<description lang="und">Short Unique Descriptions</description>
+				</component>
+				<component>
+					<id>choice_5dJ1diedzas</id>
+					<description lang="und">“More Information”</description>
+				</component>
+				<component>
+					<id>choice_6nilaGVFejj</id>
+					<description lang="und">“Link”</description>
+				</component>
+				<component>
+					<id>choice_6dujs9HYXm3</id>
+					<description lang="und">Full URL address</description>
+				</component>
+				<component>
+					<id>choice_6jUur1vd437</id>
+					<description lang="und">Descriptive sentance</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5xbNfnMTVkm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formatting Links</name>
+			<description lang="und">Formatting Links</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/68RkbFqpY3q" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Intro: Link Simulation</name>
+			<description lang="und">Intro: Link Simulation</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6lljM79J09E" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Color Contrast URL</name>
+			<description lang="und">Color Contrast URL</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5sWI1DxI94P" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Right Click Microsoft Word Document</name>
+			<description lang="und">Right Click Microsoft Word Document</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6PouG1uS1SA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Copy Hyperlink</name>
+			<description lang="und">Copy Hyperlink</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6oqG1LYGxTS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Highlight "Fix Color Contrast"</name>
+			<description lang="und">Highlight "Fix Color Contrast"</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5a1YvWs2eX4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Insert tab page</name>
+			<description lang="und">Click the Insert tab page</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5z0KSs57Y5C" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Links grid drop down button</name>
+			<description lang="und">Click the Links grid drop down button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5iT6urd7dCl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Link page</name>
+			<description lang="und">Click the Link page</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6jJSfN7iJTr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the text box</name>
+			<description lang="und">Click the text box</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/623nk69KF6O" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Press Control + V</name>
+			<description lang="und">Press Control + V</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/623nk69KF6O/6efWcJgJmPz" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Shortcut Keys</name>
+			<description lang="und">Shortcut Keys</description>
+			<interactionType>fill-in</interactionType>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/65DjK0wyKuM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the OK button</name>
+			<description lang="und">Click the OK button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/68iEqdrt9CQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Scenario: Fix Link Color</name>
+			<description lang="und">Scenario: Fix Link Color</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/61ZEtLQQ0Vq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Highlight "fix color contrast"</name>
+			<description lang="und">Highlight "fix color contrast"</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6NNoZUcTlSa" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Home tab page</name>
+			<description lang="und">Click the Home tab page</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6UM7zsnXRzd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Font Color grid drop down button</name>
+			<description lang="und">Click the Font Color grid drop down button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5hwNV3QmUaa" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the More Colors... menu item</name>
+			<description lang="und">Click the More Colors... menu item</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6WYBvnPUre0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the Colors: image</name>
+			<description lang="und">Click the Colors: image</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6ZMbaqWWEW6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click the OK button</name>
+			<description lang="und">Click the OK button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6j0939JZwHs" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Click Microsoft Word Document</name>
+			<description lang="und">Click Microsoft Word Document</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/656ThaWSNoZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Conclusion</name>
+			<description lang="und">Conclusion</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/5aecuWohFPQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Bookmark Accessibility Resources</name>
+			<description lang="und">Bookmark Accessibility Resources</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6RNpfsZ8Kz7/6C61IcvYeBe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Bookmark Accessibility Guides</name>
+			<description lang="und">Bookmark Accessibility Guides</description>
+		</activity>
+	</activities>
+</tincan>
